@@ -1,0 +1,16 @@
+/* 
+selector {
+  property: value;
+}
+ */
+li {
+  border: 2px solid red;
+}
+
+#idle {
+  background: yellow;
+}
+
+.done {
+  text-decoration: line-through;
+}
