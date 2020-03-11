@@ -14,6 +14,16 @@ function nowServing (katzDeliLine) {
   }
 }
 
+//function that accepts current line of people and return the first person in line then remove that person from the line. If nobody is in line then return a string.
+// function nowServing (katzDeliLine){
+//   if (katzDeliLine.length === 0) { //looks at length of katzDeliLine and if nobody is in line then return string
+//     return `There is nobody waiting to be served!`
+//   }
+//   for (var i = 0; i < katzDeliLine.length; i++) {
+//       return `Currently serving ${katzDeliLine.shift()}.`
+//   }
+// }
+
 //function that accepts current line of people and returns current line as a string
 function currentLine(katzDeliLine){
   if (katzDeliLine.length === 0) { //looks at the length of katzDeliLine to see what string to return
